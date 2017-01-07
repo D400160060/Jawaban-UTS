@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+unsigned int i;
+printf("Simbol\t|Desimal|Hex\t |\n");
+printf("===============================\n");
+for(i=0;i<256;i++){
+printf("%c\t|%d\t|0x%x\t |\n",i,i,i);
+}
+return 0;
+}
